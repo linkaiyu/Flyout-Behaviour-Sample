@@ -1,0 +1,25 @@
+﻿<Properties NuGet.AddPackagesDialog.IncludePrerelease="True" StartupConfiguration="{AC08A7F4-DD5B-447A-9E1B-F9CE689D8558}|Default">
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <Xamarin.Addins.Core.Project ActiveDebugTarget="MyAppleMacCatalystID" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="AppShell.xaml">
+    <Files>
+      <File FileName="MainPage.xaml.cs" />
+      <File FileName="MainPage.xaml" />
+      <File FileName="MauiProgram.cs" />
+      <File FileName="App.xaml.cs" />
+      <File FileName="AppShell.xaml" Line="17" Column="83" />
+      <File FileName="Platforms/MacCatalyst/Program.cs" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__" />
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.Flyout-Behavior PreferredExecutionTarget="MyAppleMacCatalystID" />
+</Properties>

@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<Shell x:Class="Flyout_Behavior.AppShell"
+       xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+       xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+       xmlns:local="clr-namespace:Flyout_Behavior"
+       FlyoutBackgroundColor="Gray"
+       Shell.FlyoutBehavior="Disabled"
+       Shell.NavBarIsVisible="True">
+
+    <ShellContent Title="Home"
+                  ContentTemplate="{DataTemplate local:MainPage}"
+                  FlyoutItemIsVisible="False"
+                  Route="MainPage" />
+
+    <Shell.FlyoutContentTemplate>
+        <DataTemplate>
+            <StackLayout>
+                <!-- Layout in Flyout-->
+                <HorizontalStackLayout HorizontalOptions="FillAndExpand">
+                    <Label Text="Layout Item" HeightRequest="30" WidthRequest="300"
+                           HorizontalTextAlignment="Center" FontSize="27" BackgroundColor="Green"/>
+                    <HorizontalStackLayout.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="OnGridATapped"/>
+                    </HorizontalStackLayout.GestureRecognizers>
+                </HorizontalStackLayout>
+                <!--Button in Flyout-->
+                <Button Text="Button Item" Clicked="OnButtonItemClicked" HeightRequest="30"/>
+            </StackLayout>
+        </DataTemplate>
+    </Shell.FlyoutContentTemplate>
+
+</Shell>
+
