@@ -9,17 +9,19 @@ public partial class AppShell : Shell
 
 	private void OnGridATapped(object sender, TappedEventArgs e)
 	{
-		throw new NotImplementedException();
+		//throw new NotImplementedException();
+  		Shell.Current.FlyoutIsPresented = true;
 	}
 
 	private void MenuItem_OnClicked(object sender, EventArgs e)
 	{
-		int aaa;
+		//int aaa;
+  		return;
 	}
 
     void OnButtonItemClicked(System.Object sender, System.EventArgs e)
     {
-
+		Shell.Current.FlyoutIsPresented = true;
     }
 }
 
